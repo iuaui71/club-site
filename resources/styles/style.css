@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    background-color: burlywood;
+    background-image: radial-gradient(#f9d9b6,#f1a654,#cc720f, #97540b, #3c2104);
+    background-repeat: no-repeat;
+    border: burlywood 1px solid;
+    border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: #3c2104;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav {
+    display: none;
+}
+
+.banner {
+    background-image: url("../images/dominik-scythe-XV9F-gfmThs-unsplash.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    color: blanchedalmond;
+    text-align: center;
+}
+.banner h1 {
+    position: relative;
+    top: 15%;
+    background-color: black;
+}
+.testimonial{
+    border-top: lightcoral solid 3px;
+    border: lightcoral solid 1px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.75;
+    
+}
+.testimonial p {
+    font-style: italic;
+    color: brown
+}
+.testimonial by {
+    font-style: italic;
+}
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+ 
+.maincard,  .instructor_card {
+    height: 280px;
+    color: whitesmoke;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.maincontainer .ukulele_card {
+    width: 100%;
+    height: 300px;
+    background-position: bottom;
+    object-fit: cover;
+    background-image: url("../images/ukulele.jpeg");
+    text-align: center;
+}
+.maincontainer .acoustic_card {
+    width: 100%;
+    height: 300px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("../images/acoustic.jpg");
+    text-align: center;
+}
+
+.maincontainer .electric_card {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/electric.jpeg");
+    text-align: center;
+}
+
+.maincontainer .classical_card {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    object-fit: cover;
+    background-image: url("../images/classical.jpg");
+    text-align: center;
+}
+.para {
+    position: relative;
+    top: 122px;
+    text-align: center;
+    color: wheat;
+    background-color: black;
+    opacity: 0.85;
+}
+
+
+.footer, .social{
+    border-top: black solid 1px;
+    padding-top: 10px;
+}
+
+.acoustic {
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("../images/billy-joe.jpg");
+    text-align: center;
+}
+
+.electric {
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("../images/tony.jpg");
+    text-align: center;
+}
+
+.classic {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/jose.jpg");
+    text-align: center;
+}
+
+/*
+@media only screen and (min-width: 768px) {
+    .nav {    
+        flex-direction: row;
+        height: 60px;
+        flex: 1 1 ;
+    }
+    .nav ul {
+        
+        list-style-type: none;
+        float: right;
+        padding-right: 30px;
+    }
+    .nav li {
+        display: inline;
+        margin: 20px;
+        font-variant: small-caps;
+        font-size: 24px;
+        border: solid 1px brown;
+        border-radius: 5px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color:silver;
+    }
+    
+    .nav a:hover {
+        color: brown;
+        background-color:silver;
+    }
+    .nav logo {
+        float: left;
+        padding-left: 30px;
+        height: 100%;
+        width: 80px;
+        border: black solid 2px;
+        background-image: url("../images/logo.png");
+        background-size: cover;
+    }
+    
+    .testimonial {
+        position: relative;
+        top: -320px;
+        left: 140px;
+        width: 200px;       
+    }
+}
+*/
